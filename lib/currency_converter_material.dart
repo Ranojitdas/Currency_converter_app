@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 // Create a variable to store the input valur
-// then we have to multiply the input with 84 to convert it into dollar
+// then we have to multiply the input with 82 to convert it into dollar
 // store the value in another variable and display it
 
 class CurrencyConverterMaterialPage extends StatefulWidget{
@@ -27,67 +27,74 @@ class _CurrencyConverterMaterialPageState extends State<CurrencyConverterMateria
     );
       return Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.blueGrey,
+          backgroundColor: Colors.green,
           elevation: 30,
           title: Text('Currency Converter',style: TextStyle(color: Colors.white) ,),
         ),
         backgroundColor: Colors.blueGrey,
-        body: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Text("$result ₹",
-              style: TextStyle(
-                color: Color.fromARGB(255, 255, 255, 255),
-                fontSize: 40,
-                fontWeight: FontWeight.bold,
-              ),),
-              Padding(
-                padding: const EdgeInsets.all(9.0),
-                child:
-                TextField(
-                  controller: textEditingController,
-                  style: TextStyle(color: Colors.black),
-                  decoration: InputDecoration(
-                    hintText :
-                      'Please enter the amount in USD',
-                    hintStyle: TextStyle(
-                      color: Colors.black,
+        body: Container(
+          decoration: BoxDecoration(
+            image: DecorationImage(
+            image: AssetImage("assets/images/banknotes-blur-cash-close-up.jpg"),
+              fit: BoxFit.cover,
+          ),),
+          child: Center(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text("$result ₹",
+                style: TextStyle(
+                  color: Color.fromARGB(255, 255, 255, 255),
+                  fontSize: 40,
+                  fontWeight: FontWeight.bold,
+                ),),
+                Padding(
+                  padding: const EdgeInsets.all(9.0),
+                  child:
+                  TextField(
+                    controller: textEditingController,
+                    style: TextStyle(color: Colors.black),
+                    decoration: InputDecoration(
+                      hintText :
+                        'Please enter the amount in USD',
+                      hintStyle: TextStyle(
+                        color: Colors.black,
+                      ),
+                      prefixIcon: Icon(Icons.monetization_on),
+                      prefixIconColor: Colors.black,
+                      filled: true,
+                      fillColor: Colors.white,
+                      focusedBorder: border,
+                      enabledBorder: border,
                     ),
-                    prefixIcon: Icon(Icons.monetization_on),
-                    prefixIconColor: Colors.black,
-                    filled: true,
-                    fillColor: Colors.white,
-                    focusedBorder: border,
-                    enabledBorder: border,
+                    keyboardType: TextInputType.numberWithOptions(),
                   ),
-                  keyboardType: TextInputType.numberWithOptions(),
+                  //  button
+                  //   raised
+                  //   appears like a text
                 ),
-                //  button
-                //   raised
-                //   appears like a text
-              ),
 
-              Padding(
-                padding: const EdgeInsets.all(9.0),
-                child: ElevatedButton(
-                    onPressed: (){
-                      // debug , release , profile three types of mode
-                      setState(() {
-                        result = double.parse(textEditingController.text) * 85;
-                      });
-                      },
+                Padding(
+                  padding: const EdgeInsets.all(9.0),
+                  child: ElevatedButton(
+                      onPressed: (){
+                        // debug , release , profile three types of mode
+                        setState(() {
+                          result = double.parse(textEditingController.text) * 85;
+                        });
+                        },
 
-                    style: ElevatedButton.styleFrom(
-                      foregroundColor: (Colors.white),
-                    backgroundColor: (Colors.black),
-                      minimumSize: Size(double.infinity, 50),
-                      elevation: (5),
+                      style: ElevatedButton.styleFrom(
+                        foregroundColor: (Colors.white),
+                      backgroundColor: (Colors.black),
+                        minimumSize: Size(double.infinity, 50),
+                        elevation: (5),
+                    ),
+                      child: Text('Convert'),
                   ),
-                    child: Text('Convert'),
                 ),
-              ),
-            ],
+              ],
+            ),
           ),
         ),
       );
