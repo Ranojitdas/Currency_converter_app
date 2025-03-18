@@ -30,3 +30,4 @@ Follow these steps to run the app on your local machine.
     ```
 3. Install dependencies:
    ```sh
+   flutter pub get
