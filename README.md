@@ -33,3 +33,4 @@ Follow these steps to run the app on your local machine.
    flutter pub get
    ```
 4. Run the app:
+   ```sh
