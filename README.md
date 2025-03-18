@@ -26,3 +26,5 @@ Follow these steps to run the app on your local machine.
    ```
 2. Navigate to the project directory:
    ```sh
+   cd usd-to-inr-converter
+    ```
