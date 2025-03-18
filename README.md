@@ -17,3 +17,4 @@ A simple USD to INR Currency Converter app built using Flutter. This was the fir
 ## 🛠️ Getting Started
 Follow these steps to run the app on your local machine.
 ### 📋 Prerequisites
+- 📥 Install Flutter SDK: [Flutter Installation Guide](https://flutter.dev/docs/get-started/install)
