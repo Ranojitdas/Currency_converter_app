@@ -20,3 +20,4 @@ Follow these steps to run the app on your local machine.
 - 📥 Install Flutter SDK: [Flutter Installation Guide](https://flutter.dev/docs/get-started/install)
 - 🖥️ Install a code editor like VS Code or Android Studio
 ### 📦 Installation
+1. Clone the repository:
