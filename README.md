@@ -4,3 +4,4 @@ A simple USD to INR Currency Converter app built using Flutter. This was the fir
 
 ## ✨ Features
 - 🔄 **Real-time USD to INR conversion** (static conversion for learning purposes).
+- 🖥️ **Simple and intuitive user interface**.
