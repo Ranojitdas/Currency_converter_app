@@ -10,9 +10,11 @@ A simple USD to INR Currency Converter app built using Flutter. This was the fir
 ## 📸 Screenshots
 ## 📸 Screenshots
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-  <img src="Screenshot 2025-03-17 155126.png" alt="Screenshot 1" style="width: 24%; height: 150px; margin-right: 10px; margin-bottom: 10px;">
-  <img src="Screenshot 2025-03-17 155149.png" alt="Screenshot 2" style="width: 24%; height: 150px; margin-right: 10px; margin-bottom: 10px;">
+  <img src="Screenshot 2025-03-17 155126.png" alt="Screenshot 1" style="width: 24%;">
+  
+  <img src="Screenshot 2025-03-17 155149.png" alt="Screenshot 2" style="width: 24%;">
 </div>
+
 
 ## 🛠️ Getting Started
 Follow these steps to run the app on your local machine.
