@@ -23,3 +23,4 @@ Follow these steps to run the app on your local machine.
 1. Clone the repository:
    ```sh
    git clone https://github.com/yourusername/usd-to-inr-converter.git
+   ```
