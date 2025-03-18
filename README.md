@@ -34,3 +34,4 @@ Follow these steps to run the app on your local machine.
    ```
 4. Run the app:
    ```sh
+   flutter run
