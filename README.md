@@ -21,3 +21,4 @@ Follow these steps to run the app on your local machine.
 - 🖥️ Install a code editor like VS Code or Android Studio
 ### 📦 Installation
 1. Clone the repository:
+   ```sh
