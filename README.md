@@ -28,3 +28,4 @@ Follow these steps to run the app on your local machine.
    ```sh
    cd usd-to-inr-converter
     ```
+3. Install dependencies:
