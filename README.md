@@ -36,4 +36,4 @@ Follow these steps to run the app on your local machine.
    ```sh
    flutter run
    ```
-Happy Coding! 🎉
+### Happy Coding! 🎉
