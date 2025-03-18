@@ -1,4 +1,4 @@
-# Currency_converter
+# 🚀 USD to INR Currency Converter
 
 A new Flutter project.
 
